@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backg"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="6"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Record of Batch 2008-2012"
+            android:textColor="@color/top_yellow"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="normal" >
+        </TextView>
+
+        <TableRow
+            android:id="@+id/taji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/T32"
+                android:text="  " >
+            </TextView>
+        </TableRow>
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" android:paddingTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/divider" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T1"
+            android:text="Company Name"
+            android:textSize="14dp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T2"
+            android:text="No. Of Students"
+            android:textSize="14dp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tabr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T6"
+            android:text="Infosys Technologies Ltd"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T7"
+            android:layout_gravity="center"
+            android:text="57"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/T8"
+            android:text="Computer Science Corporation" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T9"
+            android:layout_gravity="center"
+            android:text="19" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T9"
+            android:text="]init["
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T10"
+            android:layout_gravity="center"
+            android:text="17"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T11"
+            android:text="ITC" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T12"
+            android:layout_gravity="center"
+            android:text="9" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T16"
+            android:text="HCL Technologiess"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T17"
+            android:layout_gravity="center"
+            android:text="91"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tabRo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T18"
+            android:text="Standard Chartered Bank Ltd." >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T19"
+            android:layout_gravity="center"
+            android:text="38" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tabRo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T18"
+            android:text="Standard Chartered Bank Ltd."
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T19"
+            android:layout_gravity="center"
+            android:text="38"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ta6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T22"
+            android:text="FISERV" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T23"
+            android:layout_gravity="center"
+            android:text="5" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/takj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T221"
+            android:text="NIIT Technologies"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T231"
+            android:layout_gravity="center"
+            android:text="2"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/taj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T291"
+            android:text="SocialAppsHQ" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T293"
+            android:layout_gravity="center"
+            android:text="2" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tajio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T30"
+            android:text="IBM"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T293"
+            android:layout_gravity="center"
+            android:text="4"
+            android:textColor="#000000" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/taji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/T32"
+            android:text="          " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/T293"
+            android:text="               " >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/taji4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" android:background="@color/yellow_dark">
+
+        <TextView
+            android:id="@+id/T327"
+            android:text="TOTAL" android:textSize="16dp" android:textStyle="bold" android:textColor="#000000">
+        </TextView>
+
+        <TextView
+            android:id="@+id/T2938"
+            android:text=" 256 contd..." android:layout_gravity="center" android:textSize="16dp" android:textStyle="bold" android:textColor="#000000">
+        </TextView>
+    </TableRow>
+
+</TableLayout>

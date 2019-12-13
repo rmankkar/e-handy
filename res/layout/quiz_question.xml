@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="206dp"
+            android:layout_height="128dp"
+            android:src="@drawable/qz" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.64"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <RadioGroup
+                android:id="@+id/group1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/answer1"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/answer2"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/answer3"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/answer4"
+                    android:checked="false" />
+
+                <Button
+                    android:id="@+id/nextBtn"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:background="@drawable/black_button"
+                    android:paddingBottom="5dip"
+                    android:paddingTop="5dip"
+                    android:text="Next"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

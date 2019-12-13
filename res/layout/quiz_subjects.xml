@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="132dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="206dp"
+            android:layout_height="128dp"
+            android:src="@drawable/qz" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <RadioGroup
+                android:id="@+id/group1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Subject:"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/C"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="C" />
+
+                <RadioButton
+                    android:id="@+id/Cpp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="C++" />
+
+                <RadioButton
+                    android:id="@+id/Java"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Java" />
+
+                <RadioButton
+                    android:id="@+id/SQL"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Database" />
+
+                <RadioButton
+                    android:id="@+id/MP"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Digital Electronics" />
+                 <RadioButton
+                    android:id="@+id/Aptitude"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Aptitude" />
+                 <RadioButton
+                    android:id="@+id/LR"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Logical Reasoning" />
+                 <RadioButton
+                    android:id="@+id/VR"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Verbal Reasoning" />
+                 <RadioButton
+                    android:id="@+id/VA"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Verbal Ability" />
+                 
+                <Button
+                    android:id="@+id/nextBtn"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:background="@drawable/black_button"
+                    android:paddingBottom="5dip"
+                    android:paddingTop="5dip"
+                    android:text="Submit"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

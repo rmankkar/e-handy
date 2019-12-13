@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="center"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:scrollbars="vertical"
+        android:text="@string/desc_Abt_Devs"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView_abutUs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Version 1.0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="App Developed By :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Supreet Kaur"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Sunil Bagri"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Rishi Mankkar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Swati Gupta"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AbtDevs_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:gravity="left"
+        android:isScrollContainer="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="Under the guidance of : Mr. Puneet Singh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+</LinearLayout>

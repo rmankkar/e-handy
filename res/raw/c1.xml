@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Volume -->
+<gruppo id="1" versione="1.0">
+  <unita>
+    <nome_it>acro (U.S.)</nome_it>
+    <nome_eng>acre-foot (U.S.)</nome_eng>
+    <simbolo>acre-foot</simbolo>
+    <base>false</base>
+    <to>x / 1.233489 * 10^(-3)</to>
+    <from>x * 1.233489 * 10^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  
+  
+  <unita>
+    <nome_it>piede cubico</nome_it>
+    <nome_eng>cubic foot</nome_eng>
+    <simbolo>ft3</simbolo>
+    <base>false</base>
+    <to>x / 2.831685 * 10^2</to>
+    <from>x * 2.831685 * 10^(-2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pollice cubico</nome_it>
+    <nome_eng>cubic inch</nome_eng>
+    <simbolo>in3</simbolo>
+    <base>false</base>
+    <to>x / 1.638706 * 10^5</to>
+    <from>x * 1.638706 * 10^(-5)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio cubico</nome_it>
+    <nome_eng>cubic mile</nome_eng>
+    <simbolo>mi3</simbolo>
+    <base>false</base>
+    <to>x / 4.168182 * 10^(-9)</to>
+    <from>x * 4.168182 * 10^9</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>iarda cubica</nome_it>
+    <nome_eng>cubic yard</nome_eng>
+    <simbolo>yd3</simbolo>
+    <base>true</base>
+    <to>x / 7.645549 * 10</to>
+    <from>x * 7.645549 * 10^(-1)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  
+  
+ 
+ 
+  <unita>
+    <nome_it>litro</nome_it>
+    <nome_eng>Liter</nome_eng>
+    <simbolo>l</simbolo>
+    <base>false</base>
+    <to>x * 10^3</to>
+    <from>x * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>metro cubo</nome_it>
+    <nome_eng>cubic meter</nome_eng>
+    <simbolo>m3</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+ 
+  
+</gruppo>

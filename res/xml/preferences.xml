@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:title="@string/pref_start_channel_title"
+		android:summary="@string/pref_start_channel_descr"
+		android:key="startChannel"
+		android:defaultValue="1" />
+	<ListPreference
+		android:title="@string/pref_item_view_title"
+		android:summary="@string/pref_item_view_descr"
+		android:key="itemView"
+		android:defaultValue="0"
+		android:entries="@array/pref_item_view_labels"
+		android:entryValues="@array/pref_item_view_values" />
+</PreferenceScreen>

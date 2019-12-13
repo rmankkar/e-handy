@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:id="@+id/clg_img"
+            android:layout_width="wrap_content"
+            android:layout_height="153dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/college_building" />
+
+
+        <ImageView
+            android:id="@+id/clg_logo"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/gtbit_logo" />
+
+    </FrameLayout>
+
+
+    <GridView
+        android:id="@+id/main_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/paper"
+        android:horizontalSpacing="8dp"
+        android:numColumns="3"
+        android:paddingLeft="20dp"
+        android:verticalSpacing="10dp" >
+
+    </GridView>
+
+</LinearLayout>

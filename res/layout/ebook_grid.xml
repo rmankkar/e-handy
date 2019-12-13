@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_ebook_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="eBooks"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" android:textStyle="bold" android:textColor="@color/top_orange"/>
+
+    <GridView
+        android:id="@+id/gridView_ebook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2" >
+    </GridView>
+
+</LinearLayout>

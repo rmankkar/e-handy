@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+      
+
+   
+    <string name="search_label">Dictionary</string>
+
+    
+    <string name="menu_search">Search</string>
+
+    
+    <string name="settings_description">Definitions of words</string>
+
+    
+    <string name="search_instructions">Press the search key to look up a word</string>
+
+    <string name="search_results">Search results for \'<xliff:g id="string">%s</xliff:g>\': </string>
+    
+    
+    
+    <string name="rules">Welcome to the quiz for Engineers - just how much of a nerd are you? 
+This quiz is based on basic engineering concepts. The quiz can be used to test your basic knowledge of C ,C++,Java,Database,Digital Electronics. It can also be used to judge ur concepts of General Aptitude,Logical Reasoning,Verbal Reasoning and Verbal Ability for placement purposes. Each domain has a set of 15 questions with no negative marking and you can quit whenever you want just by selecting the Exit Option in Menu. Whenever you want to play, first select the subject for which you want to play on the main screen!!</string>
+<string name="preview">This is a preview version. Download the full book</string>
+	<string name="hello">Hello World, EhandyActivity!</string>
+    <string name="app_name">E Handy</string>
+    <string name="menu_website">Website</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu1">Back</string>
+    <string name="menu2">Exit</string>
+    <string name="GTBIT_Welcome">GURU TEGH BAHADUR INSTITUTE OF TECHNOLOGY</string>
+     <string name="pref_name">Settings</string>
+    <string name="app_title">RSS Reader for GTBIT students</string>
+    <string name="app_description">RSS Reader for GTBIT students</string>
+    <string name="email">Email: you@email.com</string>
+    <string name="website">http://www.gtbit.org</string>
+    <string name="version">Version</string>
+    <string name="close">Close</string>
+    <string name="ok">Ok</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="no_connection">No Internet connection!</string>
+    <string name="favorites">Favorites</string>
+    <string name="pubdate_format_pattern">E MMM dd, yyyy - h:mmaa</string>
+    <string name="update_format_pattern">MM/dd/yyyy k:mm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>  
+    <string name="loading">Loading...</string>
+    <string name="updating">Updating information</string>
+    <string name="downloading">Please wait while downloading...</string>
+    <string name="ctx_menu_title">Options</string>
+    <string name="add_fav">Add to favorites</string>
+    <string name="add_fav_msg">The item has been added to the favorites</string>
+    <string name="remove_fav">Remove from favorites</string>
+    <string name="remove_fav_confirmation">The date of this item has expired, the item will be discarded from the application. Are you sure you want to remove it from the favorites?</string>
+    <string name="remove_fav_msg">The item has been removed from the favorites</string>
+    <string name="no_fav_msg">You have no item in your favorites</string>
+    <string name="share">Share with friends</string>
+    <string name="share_subject">I have shared a new item (via %1$s)</string>
+    <string name="last_update">Last update</string>
+    <string name="next_item">Next item</string>
+    <string name="previous_item">Previous item</string>
+    <string name="read_online">Read online</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_channels">Channels</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="new_item_msg">There are new items</string>
+    <string name="no_new_item_msg">There is no new items</string>
+    <string name="no_new_fav_item_msg">There is no new favorite items</string>
+    <string name="pref_start_channel_title">Default channel</string>
+    <string name="pref_start_channel_descr">The channel to display by default when you start the application</string>
+    <string name="pref_item_view_title">Offline/Online reading</string>
+    <string name="pref_item_view_descr">Choose how you want to read the items</string>
+    <string name="pref_max_items_title">Items per channel</string>
+    <string name="pref_max_items_descr">The maximum number of items to display in a channel</string>
+    <string name="pref_max_hours_title">Discard items</string>
+    <string name="pref_max_hours_descr">Discard automatically items older than the specified period</string>
+    <string name="pref_update_period_title">Update items</string>
+    <string name="pref_update_period_descr">Update the items after the specified period</string>
+    <string name="pref_usage_data_title">Usage data</string>
+    <string name="pref_usage_data_descr">Send anonymous usage data</string>
+    <string name="new_version">FeedShare</string>
+    <string name="tip_long_press">Tip: long-press an item for more options.</string>
+  
+    
+    
+    
+    <string name="select_type">Select type</string>
+    <string name="select_subtype">Select Subtype</string>
+    <string name="insert_value">Insert</string>
+    <string name="select_subtype_to">Destination Type</string>
+	<string name="Length">Length</string>
+	<string name="Weight">Weight</string>
+	<string name="temperature">Temperature</string>
+	<string name="clear_text">Cancelled</string>
+	<string name="volume">Volume</string>
+	<string name="time">Time</string>
+	<string name="velocity">Velocity</string>
+	<string name="area">Area</string>
+	<string name="angle">Angle</string>
+	<string name="memory">Memory</string>
+	<string name="twist">Twist</string>
+	<string name="fuel">Fuel</string>
+	<string name="Groundwork">Numerical basis</string>
+	<string name="exchanges">Exchanges</string>
+	<string name="copy_s">Value copied to clipboard</string>
+	<string name="intro_add_measure">Add a new unit group</string>
+	<string name="select_unit">Select the type of length for the conversion</string>
+	<string name="test">Test</string>
+	<string name="insert_name">Enter the full name of the new unit of measure (eg Metro). \ nThe system will not let you enter duplicate units already present.</string>
+	<string name="insert_symbol">Enter symbol (eg Metro =&gt; m)</string>
+	<string name="test_formula">The result of the formula for xx is:</string>
+	<string name="test_formula_err">Error! I can understand the formula only to \ &quot;xx \&quot;</string>
+	<string name="formule_corrette">Correct! The formulas are a reverse of another.</string>
+	<string name="formule_scorrette">Error! The formulas are not an reverse of another.</string>
+	<string name="delete_x_from_first">Error! Did you delete the variable x by the first formula.</string>
+	<string name="delete_x_from_second">Error! Did you delete the variable x from the second formula.</string>
+	<string name="GROUPS">10</string>
+	<string name="salvataggio_errore">Error saving!</string>
+	<string name="cancellazione_ok">Cancellation success!</string>
+	<string name="cancellazione_errore">Error deleting!</string>
+	<string name="edit_misure">manager measures</string>
+	<string name="send_your_measures">Get your measurements</string>
+	<string name="preferenze">Preferences</string>
+	<string name="show_hide">Show / Hide units</string>
+	<string name="edit_personali">Edit your personal unit</string>
+	<string name="del_personali">Delete one of your units of measure personal</string>
+	<string name="select_show">Choose which measures show</string>
+	<string name="select_edit">Choose which measures change</string>
+	<string name="separator">" - "</string>
+	<string name="select_delete">Choose what measures to eliminate</string>
+	<string name="are_you_sure">Are you sure you want to delete this unit? \ n</string>
+	<string name="name">Name: </string>
+	<string name="symbol">symbol:</string>
+	<string name="delete">elimination</string>
+	<string name="yess">One</string>
+	<string name="o0">ascending alphabetical</string>
+	<string name="o1">alphabetic descending</string>
+	<string name="o2">ascending numerical</string>
+	<string name="o3">decreasing numerical</string>
+	<string name="formKey">dG5uRzJqMFhlWXJWWWpQNC1jTVNEM2c6MQ</string>
+	<string name="modi_ordinamento">4</string>
+	<string name="preferenze_o">Sorting preferences</string>
+	<string name="select_type_to_send">Select what you want to send</string>
+	<string name="next">forward</string>
+	<string name="save_edit">Save the changes</string>
+	<string name="error_exceed_sharing">Error! You have exceeded the maximum number of items daily</string>
+	<string name="send_ok">Upload successful!</string>
+	<string name="error_sending">Error! I could not send the report</string>
+	<string name="no_internet">Error! To be able to share your unit must be connected to internet</string>
+	<string name="subject">new measures</string>
+	<string name="error_no_selection">Error! Select at least one element</string>
+	<string name="crash_toast_text">critical error</string>
+	<string name="add_explanations">Write the formulas for the conversion from unit of measure chosen. Use as a variable the value already present. You can use all operators .</string>
+	<string name="error_facebook">Install Facebook on your device first</string>
+	<string name="error_twitter">Install Twitter on your device first</string>
+	<string name="desc_Abt_Clg">Guru Tegh Bahadur Institute of Technology (GTBIT) was established in 1999 by Delhi Sikh Gurdwara Management Committee (DSGMC), which is running a large number of educational institutes, besides carrying out large number of religious and social activities. GTBIT is a degree level technical institute, approved by AICTE and affiliated to Guru Gobind Singh Indraprastha University, Delhi. This university was established by Government of NCT of Delhi under provisions of Guru Gobind Singh University Act, 1998 read with its Amendment in 1999. It is affiliating and teaching University. It is recognised by University Grant Commission, India under section 12B of UGC Act. It has also been accredited &quot; A Grade&quot; by NAAC</string>
+	<string name="desc_Abt_Devs">GTBIT College Mobile App</string>
+	  <string name="status_text_default">Enter the URL of the file to download.</string>
+    <string name="progress_dialog_title_downloading">Downloading...</string>
+    <string name="progress_dialog_title_connecting">Connecting...</string>
+    <string name="progress_dialog_message_prefix_downloading">Downloading file</string>
+    <string name="progress_dialog_message_prefix_connecting">Connecting to</string>
+    <string name="user_message_download_complete">Download complete!</string>
+    <string name="user_message_download_canceled">Download canceled!</string>
+    <string name="error_message_bad_url">Error: Invalid URL!</string>
+    <string name="error_message_file_not_found">Error: File not found!</string>
+    <string name="error_message_general">Error downloading file!</string>
+    
+    <string name="sem">Select your Semester</string>
+    <string-array name="sem_array">
+      <item>Select Your Semester</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+      <item>8</item>
+     </string-array>
+    <string name="placement_policy">*Students with active backlog during the time of placement will not be allowed to sit for the placement procedure.\n\n*Attendence in all the Pre-placement talks is necessary.\n\n*Once a student has received the final offer letter from a company,he/she shall not be allowed to sit in further comapnies placements.\n\n*In a scenario when multiple companies are coming to recruit on the same day only in that case student will be allowed to sit in the both.
+                      </string>
+    <string name="whygtbit">1.GTBIT is consciously working towards a regime wherein industry’s aspirations for recruiting plug and play kind of employees are met by imparting employability skills to the students.\n\n2.GTBIT students have strong conceptual foundations, capacity to work and exposure to real-life work conditions.\n\n3.The education system at our College is highly innovative and has incorporated the best practices followed in Higher education.\n\n4.Curriculum based on an innovative Blended Approach that includes development of programmes with inputs from Industry and Academia, application based pedagogy, continuous assessment and organized feedback from students for further improvisation.\n\n5.The Flexible Approach of the academic system gives an opportunity to students to elect one or two open or social electives corresponding to the area of interest of the student.\n\n6.Students are given live projects in the form of business analysis, making new business plans, conducting surveys and encouraging them to take up new entrepreneurial activities.\n\n7.GTBIT provides recruiters with unparalleled exposure to competitive and qualitative Industry Ready students trained under the guidance of our nurturing faculty drawn from reputed institutions such asIIT, NITs, and IIITs etc.\n\n8.The vocational focus of many of the courses and industrial trainings help to develop the maturity and employability of our students.\n\n9.Students undergo in house Industry standard certification courses through best in country Training Providers in Software, Electronics, Mechanical, Electrical Domain areas.\n\n10.Comprehensive personality development programmes, which are in consonance with the expectation of the employers.</string>
+    <string name="placement_process">*Pre-Placement Talk\nCompanies will come down to campus to conduct pre-placement talks. These talks will give students an idea about the recruiting organizations and opportunities available within these. It also gives students the chance to interact with employees of the company and learn more about the work culture. Based on these talks, students decide if they wish to apply to those organizations.\n\n*Short listing of Candidates\nBased on the academic records etc. the companies will be required to prepare a shortlist of qualifying students and inform in advance to the Placement committee. Our Placement team will help you in preparing any type of data or report.\n\n*Campus Recruitment\nPrior to arrival on campus, the companies are requested to inform the Placement Committee about the recruitment procedure to be followed by them, like Group Discussions, Case Studies, Personal Interviews, written test etc. After the selection process, organizations are requested to announce the list of selected candidates on the campus itself followed with their appointment letters. </string>
+    <string name="placement_tips">*Role of Laboratory :\nStudents must sincerely do the lab experiments designed in their curriculum and be thoroughly knowledgeable in all of them. This gives them confidence and a good understanding of the subject which goes a long way in answering the questions in the placement interviews\n\n*Role of Projects : \nEvery student is supposed to do a project in his final year. If he/she genuinely tries to take up a project in the latest technologies he/she will get confidence and also there is a very good chance of getting a job based on his/her .\n\n*Dress code :\nOne should remember that the first impression is the best impression. Hence it is advisable to come well dressed to the aptitude test itself (or the presentation itself). The dress code for boys is normally a dark coloured pant with light coloured full hands shirt with tucked in. They are expected to wear shoes and for ladies it is a light coloured dress. However, I have observed that the students who come in tucked in for the first time are more nervous because of the uneasiness they have when as they wear it for the first time. Hence it is advisable to make a habit to always come well dressed to college. In addition to this, the students are advised to have a professional outlook and approach.\n\nSome useful tips : \nThe following tips will be useful in getting a good placement, if followed, scrupulously.\nKnow more about the company by browsing the net before appearing for the interview.\nPractice problems related to the topics of the aptitude test.\nBe thorough in at least in one subject of your choice so that you can encourage the interviewer to ask more questions in that subject.\nBe well dressed.\nBe professional in approach.\nImprove your communication skills.\nPractice group discussions with your classmates and peers.\nPrepare well and be confident. Remember that the others are your classmate and they are no greater than you.\nBe positive in attitude while answering the questions./&gt;</string>
+    <string name="placement_cell">The thrust of the Training and Placement department is towards providing the students a platform for interaction with the corporate world and also to help improve the all-round personality of the students. These aims are achieved through lectures, workshops, seminars, information about career opportunities, aptitude tests, communication enhancement lectures, group discussions, interviews, pre-placement talks, debates, preparing professional curriculum vitae etc. For any placement related queries, contact:\n\n\nDr. Babita G. Kataria\nDirector, CDMC\nGuru Tegh Bahadur Institute of Technology\nG-8 Area, Rajouri Garden\nNew Delhi\n09310080009\nEmail : bgk.gtbit@gmail.com\nFor student verification, please mail on: verifystudentgtbit@gmail.com&quot; </string>
+	
+</resources>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<gruppo id="3" versione="1.0">
+  <unita>
+    <nome_it>Celsius</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°C</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  
+  <unita>
+    <nome_it>Fahrenheit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°F</simbolo>
+    <base>false</base>
+    <to>(9 / 5 * x) + 32</to>
+    <from>(5 / 9) * (x - 32)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Kelvin</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°K</simbolo>
+    <base>false</base>
+    <to>x + 273.15</to>
+    <from>x - 273.15</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Newton</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°N</simbolo>
+    <base>false</base>
+    <to>x * (33 / 100)</to>
+    <from>x * (100 / 33)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+ 
+</gruppo>
