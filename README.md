@@ -7,6 +7,8 @@ This project has got 6 major modules: Blog Update Module, Data over WiFi Module,
 App Download Link:
 http://slideme.org/application/e-handy
 
-Screemshots:
+Screenshots:
+
+
 ![alt text](http://s.slideme.org/files/imagecache/screenshot-thumbnail/screenshots/02/35/3099394-728868.jpg)
 ![alt text](http://s.slideme.org/files/imagecache/screenshot-thumbnail/screenshots/02/35/3099394-728870.jpg)
